@@ -1,0 +1,14 @@
+{
+  "name": "code-develop-harness-init",
+  "private": true,
+  "bin": {
+    "code-harness-init": "./scripts/create-project.sh"
+  },
+  "scripts": {
+    "ci": "./scripts/ci.sh",
+    "check:docs": "./scripts/check-docs.sh",
+    "check:repo": "./scripts/check-repo-hygiene.sh",
+    "check:actions": "./scripts/check-action-pinning.sh",
+    "release-package": "./scripts/release-package.sh"
+  }
+}
