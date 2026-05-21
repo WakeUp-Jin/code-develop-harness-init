@@ -22,16 +22,16 @@ cd ~/harness-template
 npm link
 ```
 
-完成后 `harness-init` 命令即全局可用。
+完成后 `code-harness-init` 命令即全局可用。
 
 ### 创建新项目
 
 ```sh
 # 在当前目录下创建新项目
-harness-init my-project
+code-harness-init my-project
 
 # 指定目标目录
-harness-init my-project ~/projects
+code-harness-init my-project ~/projects
 ```
 
 脚本会自动完成：复制模板文件、初始化 git 仓库、替换项目名称。
