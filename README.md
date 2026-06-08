@@ -1,10 +1,28 @@
-# code-develop-harness-init
+<p align="center">
+  <img src="./public/banner.png" alt="code-develop-harness-init — Agent Harness 模板" width="860">
+</p>
 
-面向 Agent 协作开发的项目初始化模板，提供开箱即用的仓库骨架、CI/CD 流水线、文档体系和供应链安全能力。
+<h1 align="center">code-develop-harness-init</h1>
+
+<p align="center">
+  面向 Agent 协作开发的项目初始化模板 —— 开箱即用的仓库骨架、CI/CD 流水线、文档体系与供应链安全能力。
+</p>
+
+<p align="center">
+  <a href="#快速开始"><img src="https://img.shields.io/badge/quick%20start-1%20command-CC785C?style=flat-square" alt="quick start"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-191919?style=flat-square" alt="MIT"></a>
+  <img src="https://img.shields.io/badge/agent--first-repo%20template-B05E43?style=flat-square" alt="agent-first">
+</p>
 
 ## 背景
 
-**上下文工程是设计原则，Agent Harness 是构建目标。**
+> **上下文工程是设计原则，Agent Harness 是构建目标。**
+
+不是只给 Agent 写 prompt，而是给它搭一整个**可运行、可追溯**的工作空间——孤立的一句 prompt 撑不起协作，被文档、规则、CI 与脚本包裹的运行空间才行。
+
+<p align="center">
+  <img src="./public/concept.gif" alt="从孤立的 prompt 到完整的 Agent 运行空间" width="820">
+</p>
 
 核心理念：
 
@@ -13,6 +31,12 @@
 - 人定方向，Agent 执行；知识留在仓库里，不依赖聊天记录。
 
 ## 快速开始
+
+一行命令，长出完整骨架：
+
+<p align="center">
+  <img src="./public/command.gif" alt="code-harness-init 一行命令生成完整仓库骨架" width="820">
+</p>
 
 ### 安装（一次性）
 
@@ -46,6 +70,14 @@ npm run ci                          # 验证仓库完整性
 git add -A && git commit -m 'init'  # 创建初始提交
 ```
 
+## 架构地图
+
+仓库本身就是 Agent 的上下文来源：`AGENTS.md` 只做导航、把 Agent 路由到 `docs/` 知识库；CI 把约束变成机械检查；`histories/` 让每一步可追溯。
+
+<p align="center">
+  <img src="./public/architecture.png" alt="The Harness Map — AGENTS.md 路由、CI 守护与人/Agent 协作环" width="900">
+</p>
+
 ## 仓库内开发
 
 ```sh
@@ -72,6 +104,7 @@ npm run release-package # 打包 release 制品
 │   ├── exec-plans/            # 执行计划
 │   ├── histories/             # 变更历史
 │   ├── learnings/             # 学习文档
+│   ├── media/                 # README 视觉素材（头图 / 动图 / 信息图）
 │   └── releases/              # 发布记录
 ├── scripts/                   # 自动化脚本
 │   ├── ci.sh                  # CI 入口
