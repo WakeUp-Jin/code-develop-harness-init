@@ -1,6 +1,6 @@
-<p align="center">
+<!-- <p align="center">
   <img src="./public/banner.png" alt="code-develop-harness-init — Agent Harness 模板" width="860">
-</p>
+</p> -->
 
 <h1 align="center">code-develop-harness-init</h1>
 
@@ -75,7 +75,7 @@ git add -A && git commit -m 'init'  # 创建初始提交
 仓库本身就是 Agent 的上下文来源：`AGENTS.md` 只做导航、把 Agent 路由到 `docs/` 知识库；CI 把约束变成机械检查；`histories/` 让每一步可追溯。
 
 <p align="center">
-  <img src="./public/architecture.png" alt="The Harness Map — AGENTS.md 路由、CI 守护与人/Agent 协作环" width="900">
+  <img src="./public/architecture.png" alt="The Harness Map — AGENTS.md 把 Agent 路由到四层知识" width="900">
 </p>
 
 ## 仓库内开发
@@ -118,7 +118,7 @@ npm run release-package # 打包 release 制品
 
 - [harness-template](https://github.com/iFurySt/harness-template) / [harness-template-cn](https://github.com/iFurySt/harness-template-cn) — Agent-first 仓库模板的原始实现，本项目的基础骨架来源。
 - [上下文工程与运行空间实践指南](https://github.com/WakeUp-Jin/Practical-Guide-to-Context-Engineering) — 从上下文工程到 Harness Engineering 的系统化方法论，本项目的理论参考。
-- OpenAI [harness engineering 文章](https://openai.com/index/harness-engineering/) — 最初启发这一实践方向的思路来源。
+
 
 ## 许可证
 
