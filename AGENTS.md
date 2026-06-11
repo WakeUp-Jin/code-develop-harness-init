@@ -1,6 +1,6 @@
 # code-develop-harness-init
 
-这个仓库是一个面向 Agent 协作开发的基础模板。
+这个仓库是一个面向 Agent-first 开发的基础模板。
 
 `AGENTS.md` 故意保持简短，只负责做导航，不负责塞满所有规则。仓库内的 `docs/` 才是本地知识的正式来源。
 
