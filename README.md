@@ -118,6 +118,7 @@ npm run release-package # 打包 release 制品
 
 - [harness-template](https://github.com/iFurySt/harness-template) / [harness-template-cn](https://github.com/iFurySt/harness-template-cn) — Agent-first 仓库模板的原始实现，本项目的基础骨架来源。
 - [上下文工程与运行空间实践指南](https://github.com/WakeUp-Jin/Practical-Guide-to-Context-Engineering) — 从上下文工程到 Harness Engineering 的系统化方法论，本项目的理论参考。
+- [Linux.Do 社区](https://linux.do/latest) (真诚 、友善 、团结 、专业)
 
 
 ## 许可证
